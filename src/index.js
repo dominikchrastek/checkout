@@ -3,16 +3,14 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import * as serviceWorker from "./serviceWorker";
 
-import "ventrata-checkout/dist/ventrata-checkout.esm";
+import "@ventrata/checkout/dist/esm";
 
 const Comp = () => {
   return (
-    <div id="ventrata-fap">
-      <ventrata-checkout
-        product="44c797ef-4197-49d2-94c0-824e0aa70ecf"
-        token="45d4f9e9-c649-4a74-87e3-63c3fd3ecb04"
-      ></ventrata-checkout>
-    </div>
+    <ventrata-checkout
+      product="44c797ef-4197-49d2-94c0-824e0aa70ecf"
+      token="45d4f9e9-c649-4a74-87e3-63c3fd3ecb04"
+    ></ventrata-checkout>
   );
 };
 
