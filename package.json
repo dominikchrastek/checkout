@@ -6,11 +6,10 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "@ventrata/checkout": "^1.0.1",
+    "@ventrata/checkout": "^1.0.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1",
-    "zoid": "^9.0.43"
+    "react-scripts": "3.4.1"
   },
   "scripts": {
     "start": "PORT=4000 react-scripts start",
